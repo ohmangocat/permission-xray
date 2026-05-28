@@ -31,3 +31,11 @@ php bin/hyperf.php mine-extension:install xjlldw/permission-xray --yes
 2. 鼠标移动到页面上的按钮、菜单或内容区域。
 3. 浮层会显示当前 DOM 的 `v-auth / v-role / v-user`、命中状态和当前路由权限。
 4. 需要继续操作页面时，再点一次顶部按钮或按 `Esc` 关闭。
+
+## 封面生成
+
+封面由根目录的 `generate-cover.ps1` 生成，不依赖 AI。
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\generate-cover.ps1
+```

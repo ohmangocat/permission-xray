@@ -1,0 +1,7 @@
+/install.lock
+/vendor/
+/node_modules/
+/.idea/
+/.vscode/
+*.log
+*.tmp

@@ -1,0 +1,31 @@
+{
+    "name": "xjlldw/permission-xray",
+    "version": "1.0.0",
+    "type": "frontend",
+    "description": "权限透视器顶部工具栏插件，可查看当前路由、按钮指令、角色与用户权限命中状态",
+    "author": [
+        {
+            "name": "xjlldw"
+        }
+    ],
+    "keywords": [
+        "mineadmin",
+        "plugin",
+        "permission",
+        "xray",
+        "toolbar"
+    ],
+    "homepage": "https://github.com/ohmangocat/permission-xray",
+    "license": "MIT",
+    "require": [],
+    "composer": {
+        "require": {},
+        "psr-4": {
+            "Plugin\\Xjlldw\\PermissionXray\\": "src"
+        },
+        "config": "Plugin\\Xjlldw\\PermissionXray\\ConfigProvider"
+    },
+    "package": {
+        "dependencies": {}
+    }
+}
